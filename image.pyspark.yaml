@@ -3,7 +3,7 @@ schema_version: 1
 name: "radanalyticsio/radanalytics-pyspark"
 version: 1.0
 release: dev
-from: "centos/python-27-centos7:latest"
+from: "centos/python-36-centos7:latest"
 labels:
   - name: "io.k8s.description"
     value: "Platform for building a radanalytics pyspark app"

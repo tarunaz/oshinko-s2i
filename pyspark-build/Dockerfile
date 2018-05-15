@@ -16,7 +16,7 @@
 #
 # This is a Dockerfile for the radanalyticsio/radanalytics-pyspark:1.0 image.
 
-FROM centos/python-27-centos7:latest
+FROM centos/python-36-centos7:latest
 
 # Environment variables
 ENV JBOSS_IMAGE_NAME="radanalyticsio/radanalytics-pyspark" \
